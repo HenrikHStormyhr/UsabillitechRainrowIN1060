@@ -1,4 +1,4 @@
-//Usabilitech Rainrow prototype kode I2C Master
+//Usabilitech Rainrow prototype kode I2C Master IN1060 Vaar 2020
 //Kode til Master-arduino(har alle knapper og holder
 //styr paa spillbrettet)
 

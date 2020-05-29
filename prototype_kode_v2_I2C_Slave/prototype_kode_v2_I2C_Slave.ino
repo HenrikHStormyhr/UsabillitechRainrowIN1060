@@ -1,4 +1,4 @@
-//Usabilitech Rainrow prototype kode I2C Slave
+//Usabilitech Rainrow prototype kode I2C Slave IN1060 Vaar 2020
 //Kode til Slave-arduino(styrer skjermen utifra data
 //den mottar fra Master).
 
