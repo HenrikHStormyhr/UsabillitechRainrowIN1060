@@ -84,6 +84,7 @@ void loop() {
   tid = millis();
 
   //Nar spillet er ferdig
+  //Venter paa at reset knapp skal trykkes
   while (hvemSinTur == 0) {
     tid = millis();
     
@@ -96,7 +97,7 @@ void loop() {
       nyttSpill = true;
     }
 
-  //Bytt-spiller knapp med debounce
+  //Reset/byttspiller-knapp med debounce
   if (digitalRead(byttSpillerKnapp) == HIGH) {
      if (gangerTrykket == 0){
       sistTrykket = tid;
